@@ -3,21 +3,21 @@
 
 schema:
   schema_id: hentaigana
-  name: "変体仮名"
-  version: "2019.08.01"
+  name: "變體假名"
+  version: "nc1.0"
   author:
     - 埃爾德路 ‹edwardmartyr@outlook.com›
+    - Nacayama <zungsaan@gmail.com>
   description: |
-    変体仮名インプット＋相応の漢字インプット
-    Based on the Wikipedia page for Hentaigana
+    Edited by Nacayama for personal use and better experience
 
 switches:
   - options: [ noop, hentaikanjitrans ]
-    states: [ かな, 漢字 ]
+    states: [ 假名, 眞名 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: ascii_mode
-    states: [ 中文, 西文 ]
+    states: [ 和文, 西文 ]
 
 engine:
   processors:
@@ -42,6 +42,8 @@ engine:
   filters:
     - "simplifier@hentaikanji"
     - uniquifier
+menu:
+  page_size: 9
 
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz-"
@@ -70,6 +72,10 @@ translator:
   spelling_hints: 5
   comment_format:
     - xform/&//
+
+style: 
+  font_face: "TH-Tshyn-P1"
+  font_point: 30
 
 hentaikanji:
   option_name: hentaikanjitrans
