@@ -5,6 +5,7 @@ It is an edited version based on edward-martyr/rime-hentaigana, just slightly tw
 - Change some terms.
 - Use bigger font size so it is easier to read even in small screen like laptop. It is because the hentaigana text is hard to read by default size of rime.
 - Use different font family, I decided to use TH-Tshyn (天珩全字庫), but there is other options like I.Ming and IPA明朝 as original readme document indicated.
+- Larger page size
 
 ### dict.yaml (Same as original)
 I was thinking to make some changes there are any missing but there is not. Currenty dict.yaml is good enough, but I might make some change in the future. Original Readme didn't indicated how to input some of the text so I have them here so you do not need to read through the dict. You can notice the differece between normal input (i.e. onj instead of onaji).
