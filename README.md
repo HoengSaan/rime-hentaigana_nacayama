@@ -42,3 +42,6 @@ I was thinking to make some changes there are any missing but there is not. Curr
 - ゙	daku // this is the dakuten for merging
 - ゜	handakuten
 - ゚	handaku // this is the handakuten for merging
+
+ ![image](https://user-images.githubusercontent.com/31458520/232489212-6184b879-f578-4915-ba2e-3c0327b699f5.png)
+
